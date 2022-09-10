@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>StopWatch</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading"><span id="head">STOP</span>WATCH</div>
+      <div class="display">
+        <div class="lap-chart"><span id="chart-heading">LAPS</span>
+            <ul id="data"></ul>
+        </div>
+        <div id="watch">00:00:00:00</div>
+      </div>
+      <div class="user">
+        <button class="btn" id="play">Play</button>
+        <button class="btn" id="pause">Pause</button>
+        <button class="btn" id="reset">Reset</button>
+        <button class="btn" id="lap">Lap</button>
+        <button class="btn" id="average" onclick="average()">Avg</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
